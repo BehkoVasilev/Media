@@ -15,6 +15,10 @@ function UsersList() {
         dispatch(fetchUsers());
     }, [dispatch]);
 
+    const handleUserAdd = () =>{
+        dispatch(addUser())
+    }
+
     if (isLoading) {
         return <Skeleton times={data.length} className="h-10 w-full" />;
     }
@@ -35,7 +39,7 @@ function UsersList() {
         <div>
             <div className="flex flex-row justify-between m-3">
                 <h1 className="m-2 text-xl">Users</h1>
-                <Button>
+                <Button onClick={handleUserAdd}>
                     + Add User
                 </Button>
             </div>
