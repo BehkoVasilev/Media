@@ -1,14 +1,6 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Myra Paginie"
-    },
-    {
-      "name": "Ellen Jenkins",
-      "id": 3
-    },
-    {
       "name": "Diana O'Conner",
       "id": 6
     },
