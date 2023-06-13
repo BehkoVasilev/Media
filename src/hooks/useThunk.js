@@ -18,4 +18,4 @@ function useThunk(thunk) {
     return [runThunk, isLoading, error];
 };
 
-export default useThunk
+export default useThunk;
