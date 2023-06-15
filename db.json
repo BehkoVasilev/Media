@@ -30,6 +30,11 @@
       "id": 10,
       "title": "Hiking Trip",
       "userId": 30
+    },
+    {
+      "userId": 30,
+      "title": "Intelligent Granite Cheese",
+      "id": 11
     }
   ],
   "photos": []
