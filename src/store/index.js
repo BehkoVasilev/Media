@@ -1,10 +1,14 @@
 import { configureStore } from "@reduxjs/toolkit";
+import { setupListeners } from "@reduxjs/toolkit/dist/query";
 import { usersReducer } from "./slices/usersSlice";
+import { albumsApi } from "./apis/albumsApi";
 
 export const store = configureStore({
     reducer: {
-        users: usersReducer
-    }
+        users: usersReducer,
+        [albumsApi.reducerPath]: albumsApi.reducer
+    },
+    
 });
 
 export * from './thunks/fetchUsers';
