@@ -1,7 +1,5 @@
 import classNames from "classnames";
 
-
-
 function Skeleton({ times, className }) {
     const outerClassNames = classNames(
         'relative',
@@ -21,7 +19,6 @@ function Skeleton({ times, className }) {
         'via-white',
         'to-gray-200'
     );
-
 
     const boxes = Array(times).fill(0).map((_, i) => {
         return <div key={i} className={outerClassNames}>
