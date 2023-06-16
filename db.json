@@ -23,6 +23,10 @@
     {
       "name": "Harvey Dare",
       "id": 35
+    },
+    {
+      "name": "Allen Lang",
+      "id": 36
     }
   ],
   "albums": [
@@ -90,6 +94,11 @@
       "userId": 30,
       "title": "Sleek Rubber Pants",
       "id": 22
+    },
+    {
+      "userId": 30,
+      "title": "Ergonomic Frozen Tuna",
+      "id": 23
     }
   ],
   "photos": []
