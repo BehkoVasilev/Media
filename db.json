@@ -13,10 +13,6 @@
       "id": 32
     },
     {
-      "name": "Tammy Hills",
-      "id": 33
-    },
-    {
       "name": "Miss Tonya O'Conner",
       "id": 34
     },
@@ -31,11 +27,6 @@
   ],
   "albums": [
     {
-      "id": 10,
-      "title": "Hiking Trip",
-      "userId": 30
-    },
-    {
       "userId": 30,
       "title": "Intelligent Granite Cheese",
       "id": 11
@@ -44,41 +35,6 @@
       "userId": 30,
       "title": "Sleek Granite Fish",
       "id": 12
-    },
-    {
-      "userId": 31,
-      "title": "Incredible Frozen Cheese",
-      "id": 13
-    },
-    {
-      "userId": 31,
-      "title": "Awesome Steel Hat",
-      "id": 14
-    },
-    {
-      "userId": 31,
-      "title": "Refined Steel Pizza",
-      "id": 15
-    },
-    {
-      "userId": 31,
-      "title": "Recycled Steel Shoes",
-      "id": 16
-    },
-    {
-      "userId": 32,
-      "title": "Bespoke Wooden Bacon",
-      "id": 17
-    },
-    {
-      "userId": 32,
-      "title": "Handmade Plastic Car",
-      "id": 18
-    },
-    {
-      "userId": 32,
-      "title": "Generic Fresh Hat",
-      "id": 19
     },
     {
       "userId": 32,
@@ -104,11 +60,6 @@
       "userId": 30,
       "title": "Handmade Metal Cheese",
       "id": 24
-    },
-    {
-      "userId": 33,
-      "title": "Rustic Granite Sausages",
-      "id": 25
     },
     {
       "userId": 36,
