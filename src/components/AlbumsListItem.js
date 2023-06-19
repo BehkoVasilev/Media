@@ -10,12 +10,12 @@ function AlbumsListItem({ album }) {
         removeAlbum(album);
     }
 
-    const header = <div className="flex flex-row items-center justify-between">
-        <Button loading={result.isLoading} onClick={handleRemoveClick}>
+    const header = <>
+        <Button className="mr-2" loading={result.isLoading} onClick={handleRemoveClick}>
             <GoTrashcan />
         </Button>
         {album.title}
-    </div>;
+    </>;
 
     return <ExpandablePanel header={header}>
         List of photos in the album
