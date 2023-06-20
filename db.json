@@ -13,18 +13,6 @@
       "id": 36
     },
     {
-      "name": "Gerald Schinner",
-      "id": 37
-    },
-    {
-      "name": "Horace Larson",
-      "id": 38
-    },
-    {
-      "name": "Faye Roberts",
-      "id": 39
-    },
-    {
       "name": "Lionel Schneider",
       "id": 40
     }
@@ -51,10 +39,26 @@
       "id": 27
     },
     {
-      "userId": 37,
-      "title": "Fantastic Rubber Towels",
+      "userId": 30,
+      "title": "Intelligent Rubber Sausages",
       "id": 28
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 12,
+      "url": "https://loremflickr.com/150/150/abstract?lock=4769141516926976",
+      "id": 1
+    },
+    {
+      "albumId": 12,
+      "url": "https://loremflickr.com/150/150/abstract?lock=481677447004160",
+      "id": 2
+    },
+    {
+      "albumId": 12,
+      "url": "https://loremflickr.com/150/150/abstract?lock=5528710002245632",
+      "id": 3
+    }
+  ]
 }
