@@ -11,9 +11,12 @@ function AlbumsList({ user }) {
         addAlbum(user);
     }
 
+    let count = data ? data.length : 0;
+
     let content;
+
     if (isFetching) {
-        content = <Skeleton className="h-10 2-full" times={3} />
+        content = <Skeleton className="h-10 2-full" times={count + 1} />
     } else if (error) {
         content = <div>Error loading albums.</div>
     } else {

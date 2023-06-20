@@ -1,10 +1,20 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/dist/query/react";
 import { faker } from "@faker-js/faker";
 
+const pause = (duration) => {
+    return new Promise((resolve) => {
+        setTimeout(resolve, duration);
+    });
+};
+
 const photosApi = createApi({
     reducerPath: 'photos',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'http://localhost:3005'
+        baseUrl: 'http://localhost:3005',
+        fetchFn: async (...args) => {
+            await pause(1000);
+            return fetch(...args)
+        }
     }),
     endpoints(builder) {
         return {
@@ -43,7 +53,7 @@ const photosApi = createApi({
             }),
             removePhoto: builder.mutation({
                 invalidatesTags: (result, error, photo) => {
-                    return [{ type: 'Photo', id: photo.id}]
+                    return [{ type: 'Photo', id: photo.id }]
                 },
                 query: (photo) => {
                     return {
