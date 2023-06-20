@@ -1,5 +1,5 @@
-function PhotoList() {
-    return 'PhotoList'
+function PhotosList({ album }) {
+    return 'PhotosList'
 };
 
-export default PhotoList;
+export default PhotosList;

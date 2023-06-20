@@ -1,5 +1,5 @@
-function PhotoListItem() {
+function PhotosListItem() {
     return 'PhotosListItem'
 };
 
-export default PhotoListItem;
+export default PhotosListItem;
