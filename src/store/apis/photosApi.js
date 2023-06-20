@@ -43,3 +43,10 @@ const photosApi = createApi({
     },
 });
 
+export const {
+    useFetchPhotosQuery,
+    useAddPhotoMutation,
+    useRemovePhotoMutation
+} = photosApi
+
+export { photosApi }
